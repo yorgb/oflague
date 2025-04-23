@@ -1,0 +1,171 @@
+ #collapsePromomoin26 {
+    margin-top: -32px;
+  }
+
+  #promomoin26 .accordion-title {
+    font-size: 16px;
+  }
+</style>
+
+<style>
+  body.une-arche elcos-header,
+  body.une-arche elcos-footer-zone {
+    --body-has-arch: 1;
+  }
+
+  @font-face {
+    font-family: "elcos-icomoon";
+    src: url("./assets/fonts/o-icomoon.eot?20201014_1");
+    src: url("./assets/fonts/o-icomoon.eot?20201014_1") format("embedded-opentype"),
+         url("./assets/fonts/o-icomoon.woff2?20201014_1") format("woff2"),
+         url("./assets/fonts/o-icomoon.woff?20201014_1") format("woff"),
+         url("./assets/fonts/o-icomoon.ttf?20201014_1") format("truetype"),
+         url("./assets/fonts/o-icomoon.svg?20201014_1#POLE-HP") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  .icomoon:before {
+    font-family: "elcos-icomoon", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: "o-HelveticaNeue";
+    src: url("./assets/fonts/HelvNeue55_W1G.eot?20201014");
+    src: url("./assets/fonts/HelvNeue55_W1G.eot?20201014") format("embedded-opentype"),
+         url("./assets/fonts/HelvNeue55_W1G.woff2?20201014") format("woff2"),
+         url("./assets/fonts/HelvNeue55_W1G.woff?20201014") format("woff"),
+         url("./assets/fonts/HelvNeue55_W1G.ttf?20201014") format("truetype"),
+         url("./assets/fonts/HelvNeue55_W1G.svg?20201014#HelveticaNeueLTW07-55Roman") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "o-HelveticaNeue";
+    src: url("./assets/fonts/HelvNeue75_W1G.eot?20201014");
+    src: url("./assets/fonts/HelvNeue75_W1G.eot?20201014") format("embedded-opentype"),
+         url("./assets/fonts/HelvNeue75_W1G.woff2?20201014") format("woff2"),
+         url("./assets/fonts/HelvNeue75_W1G.woff?20201014") format("woff"),
+         url("./assets/fonts/HelvNeue75_W1G.ttf?20201014") format("truetype"),
+         url("./assets/fonts/HelvNeue75_W1G.svg?20201014#HelveticaNeueLTW07-75Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  elcos-header,
+  elcos-footer-zone,
+  elcos-search-box {
+    all: initial !important;
+    font-family: o-HelveticaNeue, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  elcos-header:focus,
+  elcos-header:active,
+  elcos-header:hover,
+  elcos-header:visited,
+  elcos-header:focus-visible,
+  elcos-footer-zone:focus,
+  elcos-footer-zone:active,
+  elcos-footer-zone:hover,
+  elcos-footer-zone:visited,
+  elcos-footer-zone:focus-visible,
+  elcos-search-box:focus,
+  elcos-search-box:active,
+  elcos-search-box:hover,
+  elcos-search-box:visited,
+  elcos-search-box:focus-visible {
+    all: initial !important;
+  }
+
+  .o-no-scroll {
+    overflow: hidden;
+  }
+
+  .o-anchor {
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+  }
+
+  .o-is-sidepanel-open {
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+  }
+
+  @media screen and (max-width: 480px) {
+    .o-is-layer-open {
+      width: 100% !important;
+      height: 100vh !important;
+      overflow: hidden !important;
+    }
+  }
+
+  elcos-footer-zone {
+    display: block !important;
+  }
+
+  elcos-footer-zone:last-of-type {
+    border-bottom: solid 1px #666 !important;
+  }
+
+  elcos-footer-zone:hover {
+    display: block !important;
+  }
+
+  elcos-footer-zone:hover:last-of-type {
+    border-bottom: solid 1px #666 !important;
+  }
+
+  footer > .o-marge {
+    background-color: #000;
+    color: #fff;
+    padding: 0 calc(1.5625% + 15px);
+    font-family: o-HelveticaNeue, Arial, sans-serif;
+  }
+
+  @media screen and (min-width: 736px) {
+    footer > .o-marge {
+      padding: 0 calc(1.5625% + 15px);
+    }
+  }
+
+  @media screen and (min-width: 961px) {
+    footer > .o-marge {
+      padding: 0 calc(3.125% + 15px);
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    footer > .o-marge {
+      padding: 0 calc((100% - min(1440px, 990px * var(--body-has-arch, 10000000000))) / 2 + 60px);
+    }
+  }
+
+  elcos-footer-zone[zone="liens-legaux-compact"] {
+    margin: 0;
+    padding: 0;
+  }
+
+  elcos-footer-zone[zone="liens-legaux-compact"]:last-of-type {
+    border-bottom: none;
+  }
+
+  div:has(> elcos-footer-zone[zone="liens-legaux-compact"]) {
+    height: auto !important;
+  }
+
